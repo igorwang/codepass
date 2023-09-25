@@ -1,2 +1,3 @@
 # codepass
-A repository for interviews include leetcode and system desgin etc.
+
+A repository for interviews includes LeetCode and system design, among other things.
