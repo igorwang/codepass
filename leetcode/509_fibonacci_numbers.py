@@ -22,3 +22,6 @@ class Solution:
             return 1
         mems[n] = self.fib(n - 1, mems) + self.fib(n - 2, mems)
         return mems[n]
+
+if __name__ == '__main__':
+    pass
