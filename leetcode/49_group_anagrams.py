@@ -20,7 +20,6 @@ class Solution:
             char_hashmap = [0] * 26
             for c in string:
                 char_hashmap[ord(c) - ord('a')] += 1
-            # key = "".join([chr(j + ord('a')) + str(i) for j, i in enumerate(char_hashmap) if i != 0])
             key = tuple(char_hashmap)
             if key not in res:
                 res[key] = [string]

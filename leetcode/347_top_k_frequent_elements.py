@@ -21,6 +21,9 @@ class Solution:
                 numsMap[i] = 1
             else:
                 numsMap[i] += 1
+        # what is max heap
+        # bucket sort i-count
+        #
 
         maxHeap = [[] for i in range(max(numsMap.values()) + 1)]
         for num, count in numsMap.items():
